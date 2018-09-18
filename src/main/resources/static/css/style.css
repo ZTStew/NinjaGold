@@ -1,0 +1,37 @@
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.black {
+	color: black;
+}
+
+.logbox{
+	outline: 1px solid black;
+	
+	padding: 5px;
+	padding-left: 15px;
+	
+	margin-bottom: 10px;
+	height: 50vh;
+	
+	overflow: scroll;
+}
+
+.tasks {
+	display: flex;
+	justify-content: space-between;
+}
+
+.task {
+	outline: 1px solid black;
+	margin: 20px;
+	padding: 10px;
+	
+	width: 23%;
+	height: 20vh;
+}
